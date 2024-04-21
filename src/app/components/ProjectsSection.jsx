@@ -86,7 +86,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section>
+    <section className="scroll-m-24" id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4">
         My Projects
       </h2>
