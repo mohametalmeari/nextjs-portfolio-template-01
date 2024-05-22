@@ -15,14 +15,12 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold min-h-40">
             <div className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600 mb-4">
               Hello, I'm{" "}
             </div>
             <TypeAnimation
               sequence={[
-                "Mohamad",
-                1000,
                 "Web Developer",
                 1000,
                 "Mobile Developer",
@@ -35,7 +33,7 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl pr-10">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
             cumque id rerum doloribus eveniet quidem quasi voluptates? Veritatis
             quidem ad quibusdam? Optio dignissimos id enim error voluptas
@@ -62,8 +60,8 @@ const HeroSection = () => {
             <Image
               src={"/images/hero-image.jpg"}
               alt="Hero image"
-              width={300}
-              height={300}
+              width={250}
+              height={250}
               className="absolute rounded-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             />
           </div>
